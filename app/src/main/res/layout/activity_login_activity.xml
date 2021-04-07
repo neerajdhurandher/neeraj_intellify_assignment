@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.login_activity"
+    android:id="@+id/loginpageid"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aboutshowhead"
+            android:padding="8dp"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/etemailid"
+        android:layout_width="268dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/coustem_input"
+        android:drawableStart="@drawable/focuse_email_res"
+        android:drawablePadding="20dp"
+
+        android:ems="20"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="268dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="64dp"
+        android:autofillHints=""
+        android:background="@drawable/coustem_input"
+        android:drawableStart="@drawable/focuse_lock_res"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/password"
+
+        android:inputType="textPassword"
+        android:paddingEnd="12dp"
+        android:textColorHint="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etemailid"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/login"
+        android:background="@drawable/textbox_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:text="@string/or"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="Text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/aboutshowhead"
+        android:textColor="#fff"
+        android:gravity="fill"
+        android:paddingLeft="30dp"
+        android:text="@string/NotSignup"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google_button" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

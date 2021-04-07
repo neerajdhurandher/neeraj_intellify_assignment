@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914782781199",
+    "project_id": "neeraj-intellify-assignment",
+    "storage_bucket": "neeraj-intellify-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914782781199:android:fb6ecd6f502345b416887a",
+        "android_client_info": {
+          "package_name": "com.example.neeraj_intellify_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914782781199-bas5eukci1fj4b08s1mf32mef9lugv35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiVMEsJ-2q8_1pMEQac0XGumdoNt2apm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914782781199-bas5eukci1fj4b08s1mf32mef9lugv35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

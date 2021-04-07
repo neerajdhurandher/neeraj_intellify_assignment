@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">neeraj_intellify_assignment</string>
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="Signup">SignUp</string>
+    <string name="loading">Loading</string>
+    <string name="NotSignup">Not have an Account</string>
+    <string name="Already">Already Have An Account</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="T_C">Accept T&amp;Cs</string>
+    <string name="googleSignin">SignIn with Goggle</string>
+    <string name="or">-------OR-------</string>
+
+
+</resources>
